@@ -78,7 +78,7 @@ public class Addition
     [TestMethod]
 	public void Divide_Valid_Patino_Blesh()
 	{
-		Assert.AreEqual(6, Program.Divide("10", "2")); //Intentionally Wrong
+		Assert.AreEqual(5, Program.Divide("10", "2")); //Intentionally Wrong
 		Assert.AreEqual(1.5, Program.Divide("3", "2"));
 		Assert.AreEqual(2.07, Program.Divide("490", "237"), 0.01);
 	}
